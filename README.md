@@ -21,13 +21,17 @@ Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script
   pip install gradio==3.50.2 scipy tqdm
   pip install protobuf==3.20.3
   ```
-**Create Qwen3 folders and download the model**
+**Download the model**
   
-  Take Qwen3-8B as an example
+  Clone repository
+  ```bash
+  git clone https://github.com/DAILtech/Qwen3-deploy-for-developer
+  ```
+
+  Download the model, take Qwen3-8B as an example:  
   
   ```bash
-  mkdir ./Qwen3
-  cd ./Qwen3
+  cd ./Qwen3-deploy-for-developer/Qwen3
   mkdir ./Qwen3-8B
   modelscope download -- Qwen/Qwen3-8B --local_dir ./Qwen3-8B
   ```
