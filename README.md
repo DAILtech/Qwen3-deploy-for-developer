@@ -40,7 +40,9 @@ Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script
   top-p: 0.9    
   example:  
   ```bash
+  # default:
   python qwen_cli.py                 # default ./Qwen3-8B
+  # customization
   python qwen_cli.py --model qwen/Qwen1.5-7B-Chat --max-tokens 2048
   ```
 Type `quit` or `ctrl-c` to quit.
