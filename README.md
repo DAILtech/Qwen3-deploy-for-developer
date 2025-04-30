@@ -15,13 +15,13 @@ Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script
   pip install modelscope
   ```
 
-**Install requirements**
+**3. Install requirements**
   ```bash
   pip install transformers==4.51.0 accelerate==0.24.0 peft==0.4.0 bitsandbytes==0.41.1 protobuf==3.20.3
   pip install gradio==3.50.2 scipy tqdm
   pip install protobuf==3.20.3
   ```
-**Download the model**
+**4. Download the model**
   
   Clone repository
   ```bash
@@ -36,12 +36,14 @@ Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script
   modelscope download -- Qwen/Qwen3-8B --local_dir ./Qwen3-8B
   ```
 
-**Using CLI to interact with the model**
+**5. Using CLI to interact with the model**  
+
   default parameters:  
   model path: ./Qwen3-8B  
   max output tokens: 4096  
   temperature: 0.7  
   top-p: 0.9    
+  
   example:  
   ```bash
   # default:
