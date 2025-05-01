@@ -1,6 +1,8 @@
 # Qwen3-deploy-for-developer
-Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script.
-![image](https://github.com/user-attachments/assets/6c1c70f6-78f4-4a72-bb73-4fa7c9a856ad)
+Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script.  
+
+Display (Take Qwen3-8B as an example):  
+![image](https://github.com/user-attachments/assets/0d7d10b6-612d-4ae7-9926-f256b38ccdfd)
 
 
 **1. Create a new environment (strong recommanded):**
