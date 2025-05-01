@@ -34,7 +34,7 @@ model = AutoModelForCausalLM.from_pretrained(
     device_map="auto"
 )
 model.eval()
-print("[INFO] 模型加载完成，开始对话！(exit / quit 退出)\n")
+print("[INFO] 模型加载完成，开始对话！/ Model loaded—let’s start chatting! (type 'quit' to quit)\n")
 
 # ---------- 对话历史 / conversation ----------
 messages = []   # 形如 [{"role":"user","content":...}, {"role":"assistant","content":...}]
@@ -60,7 +60,7 @@ try:
             enable_thinking=True,   # deep thinking
         )
 
-        # 转张量，放到同一设备 / transfer tensor
+        # 转张量，放到同一设备 / transfer tensor, assign device
         model_inputs = tokenizer([text], return_tensors="pt").to(model.device)
 
         # 生成 / generating
