@@ -33,7 +33,7 @@ Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script
   ```bash
   cd ./Qwen3-deploy-for-developer/Qwen3
   mkdir ./Qwen3-8B
-  modelscope download --Qwen/Qwen3-8B --local_dir ./Qwen3-8B
+  modelscope download --model Qwen/Qwen3-8B --local_dir ./Qwen3-8B
   ```
 
 **5. Using CLI to interact with the model**  
