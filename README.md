@@ -1,7 +1,7 @@
 # Qwen3-deploy-for-developer
 Guidance of Qwen3 local-deploying for developer, and Interactive CLI chat script.  
 
-Display (Take Qwen3-8B as an example):  
+Display (Take Qwen3-8B as an example, <think> mode) :  
 ![image](https://github.com/user-attachments/assets/0d7d10b6-612d-4ae7-9926-f256b38ccdfd)
 
 
